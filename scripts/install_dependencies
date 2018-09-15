@@ -2,4 +2,5 @@
 cd /home/ubuntu/temp
 apt-get install nodejs-legacy
 apt-get install npm
+npm install forever -g
 npm install
