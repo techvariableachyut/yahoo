@@ -2,4 +2,4 @@
 cd /home/ubuntu/temp
 export PORT=80
 export NODE_ENV=production
-forever start app.js
+node app.js
