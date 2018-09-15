@@ -1,12 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /app.js
-    destination: /home/ec2-user/temp
-  - source: /package.json
-    destination: /home/ec2-user/temp
-  - source: /node_modules
-    destination: /home/ec2-user/temp/node_modules
+  - source: /
+    destination: /home/ubuntu/temp
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
