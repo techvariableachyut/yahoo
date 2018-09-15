@@ -1,5 +1,5 @@
 #!/bin/bash
 cd /home/ubuntu/temp
-export PORT=8080
+export PORT=80
 export NODE_ENV=production
-forever start app.js
+forever start --minUptime 1000 --spinSleepTime 1000 app.js

@@ -1,6 +1,6 @@
 var express = require('express')
 var app = new express()
-var port = process.env.PORT || 9000
+var port = process.env.PORT || 80
 
 app.get('/', function(req, res){
   res.send('done')
